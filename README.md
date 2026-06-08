@@ -1,23 +1,23 @@
-# Superstore Sales Analysis – Future Interns Data Science Task 1 (2026)
+﻿# Superstore Sales Analysis â€“ Future Interns Data Science Task 1 (2026)
 
 ## Overview
-This project analyzes the Sample Superstore Sales dataset to uncover business insights around revenue trends, profitability, product performance, and regional growth opportunities — the kind of analysis real data analysts do for companies and startups.
+This project analyzes the Sample Superstore Sales dataset to uncover business insights around revenue trends, profitability, product performance, and regional growth opportunities â€” the kind of analysis real data analysts do for companies and startups.
 
 ## Dataset
-- **Source:** [Sample Superstore – Kaggle](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)
-- **Records:** 9,994 rows × 21 columns
-- **Period:** 2014 – 2017
+- **Source:** [Sample Superstore â€“ Kaggle](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)
+- **Records:** 9,994 rows Ã— 21 columns
+- **Period:** 2014 â€“ 2017
 - **Fields:** Order ID, Order Date, Region, Category, Sub-Category, Product Name, Sales, Quantity, Discount, Profit
 
 ## Tools Used
-- **Microsoft Excel** – Data cleaning, pivot analysis, charts, dashboard
-- **Python (openpyxl)** – Automated report generation
+- **Microsoft Excel** â€“ Data cleaning, pivot analysis, charts, dashboard
+- **Python (openpyxl)** â€“ Automated report generation
 
 ## Key Business Questions Answered
 1. Which categories and sub-categories generate the most revenue and profit?
 2. How has revenue grown year over year?
 3. Which regions perform best?
-4. Which products are most profitable — and which lose money?
+4. Which products are most profitable â€” and which lose money?
 5. How do discounts affect profitability?
 
 ## Key Findings
@@ -28,24 +28,24 @@ This project analyzes the Sample Superstore Sales dataset to uncover business in
 | Furniture drags profit | Tables & Bookcases are top loss-makers |
 | West region dominates | Highest revenue and profit |
 | Discounts above 30% = losses | Nearly all high-discount rows are unprofitable |
-| Revenue grew every year | Consistent YoY growth from 2014–2017 |
+| Revenue grew every year | Consistent YoY growth from 2014â€“2017 |
 | Consumer segment is largest | ~51% of total revenue |
 
 ## Business Recommendations
-1. **Invest in Technology** – highest ROI category; expand inventory and marketing
-2. **Fix Furniture pricing** – reduce or eliminate discounts on Tables and Bookcases
-3. **Expand West strategy to other regions** – replicate what works in West/East
-4. **Cap discounts at 20%** – anything above destroys margin
-5. **Focus on Copiers, Phones, Accessories** – top profitable sub-categories
-6. **Build Consumer loyalty programs** – biggest segment, high retention value
+1. **Invest in Technology** â€“ highest ROI category; expand inventory and marketing
+2. **Fix Furniture pricing** â€“ reduce or eliminate discounts on Tables and Bookcases
+3. **Expand West strategy to other regions** â€“ replicate what works in West/East
+4. **Cap discounts at 20%** â€“ anything above destroys margin
+5. **Focus on Copiers, Phones, Accessories** â€“ top profitable sub-categories
+6. **Build Consumer loyalty programs** â€“ biggest segment, high retention value
 
 ## Project Structure
 ```
 superstore-sales-analysis/
-│
-├── Sample - Superstore.csv               # Raw dataset
-├── Superstore_Analysis_FutureInterns.xlsx # Full analysis & dashboard (6 sheets)
-└── README.md
+â”‚
+â”œâ”€â”€ Sample - Superstore.csv               # Raw dataset
+â”œâ”€â”€ Superstore_Analysis_FutureInterns.xlsx # Full analysis & dashboard (6 sheets)
+â””â”€â”€ README.md
 ```
 
 ## Excel Report Sheets
@@ -59,4 +59,5 @@ superstore-sales-analysis/
 | Raw Data | Full cleaned dataset |
 
 ## Internship
-**Future Interns – Data Science & Analytics Track, 2026**
+**Future Interns â€“ Data Science & Analytics Track, 2026**
+
