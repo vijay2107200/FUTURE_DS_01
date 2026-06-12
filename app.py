@@ -67,8 +67,6 @@ df, is_synthetic = load_data()
 # ── Sidebar ────────────────────────────────────────────────────
 st.sidebar.title("Filters")
 
-if is_synthetic:
-    st.sidebar.info("Using synthetic demo data. Upload `bank-additional-full.csv` to `data/bank-additional/` for real data.")
 
 channels = ["All"] + sorted(df["contact"].dropna().unique().tolist())
 selected_channel = st.sidebar.selectbox("Contact Channel", channels)
@@ -97,8 +95,6 @@ filtered = filtered[
 # ── Header ─────────────────────────────────────────────────────
 st.title("📊 Marketing Funnel Analysis Dashboard")
 st.markdown("**Future Interns — Data Science & Analytics Task 3 (2026)**")
-if is_synthetic:
-    st.warning("Displaying synthetic demo data — results are illustrative.")
 st.divider()
 
 # ── KPIs ───────────────────────────────────────────────────────
